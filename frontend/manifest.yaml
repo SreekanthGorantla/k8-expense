@@ -23,7 +23,9 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: sreekanthgorantla/frontend:1.0.0
+        image: sreekanthgorantla/frontend:1.1.0
+        ports:
+        - containerPort: 8080
 ---
 kind: Service
 apiVersion: v1
